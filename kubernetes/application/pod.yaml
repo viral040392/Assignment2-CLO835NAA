@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - name: application
-      image: 645071556982.dkr.ecr.us-east-1.amazonaws.com/application:v0.2
+      image: 645071556982.dkr.ecr.us-east-1.amazonaws.com/application:v0.1
       env:
         - name: DBPWD
           value: mysql
