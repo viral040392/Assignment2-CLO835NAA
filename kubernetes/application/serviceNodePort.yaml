@@ -5,7 +5,7 @@ metadata:
   namespace: webapp
   labels:
     app: employees
-    version: v1
+    version: v2
 spec:
   type: NodePort
   ports:
@@ -14,4 +14,4 @@ spec:
       nodePort: 30100
   selector:
     app: employees
-    version: v1
+    version: v2
